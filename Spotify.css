@@ -41,9 +41,12 @@ main > .main-page{
 .navbar-bottom-content{
   width: 100%;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
 }
-.menu, .ascoltati-di-recente > div{
+ .ascoltati-di-recente > div{
+  padding: 10px;
+}
+div.menù div{
   padding: 10px;
 }
 
