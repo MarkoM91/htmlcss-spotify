@@ -15,7 +15,7 @@ main{
 }
 
 main > .navbar{
-  width: 10%;
+  width: 20%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ main > .navbar{
 }
 
 main > .main-page{
-  width: 90%;
+  width: 80%;
   height: 100%;
   border: 1px solid black;
   display: flex;
@@ -34,7 +34,22 @@ main > .main-page{
 }
 .navbar-top-content{
   width: 100%;
+  text-align: left;
+  padding: 30px;
 }
+
+.navbar-bottom-content{
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+.menu, .ascoltati-di-recente > div{
+  padding: 10px;
+}
+
+
+
+
 .playlist, .login, .installa{
   display: flex;
 }
