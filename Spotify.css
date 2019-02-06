@@ -63,7 +63,7 @@ div.menù div{
 }
 
 .main-page-nav, .content{
-  padding: 20px;
+  padding: 15px;
 }
 
 
@@ -163,7 +163,7 @@ nav.player > ul > li{
 }
 .box{
   width: calc(100% /6);
-  
+  margin-bottom: 20px;
 
 }
 .main-page-nav{
