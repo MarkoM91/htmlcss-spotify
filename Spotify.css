@@ -87,11 +87,16 @@ footer{
 .footer-text > *{
   font-size: 12px;
 }
+nav.player-footer > ul {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav.player-footer > ul > li{
   padding: 0 8px;
-  list-style: none;
-  display: inline-block;
-  text-align: center;
+  
 }
 .footer-center{
   display: flex;
@@ -99,12 +104,17 @@ nav.player-footer > ul > li{
   justify-content: center;
   align-items: center;
 }
-nav.player > ul > li{
+nav.player > ul {
   list-style: none;
-  display: inline-block;
+  display: flex;
   padding: 0 20px;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+nav.player > ul > li{
+    padding: 0 20px;
+  }
 
 .playback-bar{
   display: flex;
