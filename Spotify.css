@@ -34,3 +34,13 @@ main > .right{
 .playlist, .login, .installa{
   display: flex;
 }
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left  {
+  display: flex;
+}
