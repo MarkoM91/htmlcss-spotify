@@ -8,7 +8,7 @@
   border: 1px solid black;
 }
 main{
-  height: 100%;
+  height: 85vh;
   width: 100%;
   display: flex;
 }
@@ -163,8 +163,7 @@ nav.player > ul > li{
 }
 .box{
   width: calc(100% /6);
-  padding-bottom: 30px;
-  margin-bottom: 10px;
+  
 
 }
 .main-page-nav{
