@@ -31,3 +31,6 @@ main > .right{
 .navbar-top-content{
   width: 100%;
 }
+.playlist, .login, .installa{
+  display: flex;
+}
