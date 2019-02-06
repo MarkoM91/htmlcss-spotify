@@ -200,3 +200,13 @@ nav.player-footer > ul > li{
   height: 5px;
   background-color: grey;
 }
+@media screen and (max-width: 768px){
+  
+}
+@media screen and (min-width: 768px)
+and (max-width: 992px){
+
+}
+@media screen and (min-width: 992px){
+
+}
