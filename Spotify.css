@@ -81,9 +81,21 @@ div.menù div i{
   display: flex;
 }
 
+.hamburger  div{
+width: 35px;
+height: 5px;
+background-color: white;
+margin: 6px 0;
+position: relative;
+top: 15px;
+left:  400%;
+display: none
+}
+
 .main-page-nav{
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
+  position: relative;
 }
 
 .main-page-nav, .content{
@@ -203,8 +215,8 @@ nav.player-footer > ul > li{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 
 
 .bar{
@@ -262,6 +274,12 @@ div.playlist {
  .installa div b, .login div b{
    display: none;
  }
+
+ .hamburger div{
+ display: block;
+
+ }
+
  .box{
  flex-basis:   calc(100% /3);
 }
@@ -278,6 +296,16 @@ div.playlist-text{
   top: 230px;
 
 }
+
+nav.player > ul {
+  display: none;
+}
+.navbar{
+  overflow: hidden;
+}
+
+}
+
 @media screen and (min-width: 768px)
 and (max-width: 992px){
 
