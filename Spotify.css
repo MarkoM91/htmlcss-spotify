@@ -123,10 +123,13 @@ div.menù div i{
 
 .box{
 flex-basis:   calc(100% /6);
-margin-bottom: 35px;
+margin-bottom: 20px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+}
+.box-text{
+  margin-top: 10px;
 }
 .box > *{
 width: 100%;
@@ -258,13 +261,24 @@ div.playlist {
  .installa div b, .login div b{
    display: none;
  }
- .text h4 p{
-   flex-shrink: auto;
- }
+ .box{
+ flex-basis:   calc(100% /3);
+}
+div.content-box p{
+  font-size: 12px;
+}
 
 @media screen and (min-width: 768px)
 and (max-width: 992px){
 
+  .box{
+  flex-basis:   calc(100% /4);
+  }
+
+  div.content-box p{
+    font-size: 12px;
+    margin: 10px;
+  }
 }
 @media screen and (min-width: 992px){
 
