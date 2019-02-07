@@ -99,6 +99,7 @@ div.menù div i{
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
    width: 75%;
    flex-wrap: wrap;
    color: white;
@@ -107,7 +108,7 @@ div.menù div i{
    display:flex;
    align-items: center;
    flex-wrap: wrap;
-   width: 100%;
+   flex-basis:auto;
  }
 
  .content-header{
@@ -123,6 +124,9 @@ div.menù div i{
 .box{
 flex-basis:   calc(100% /6);
  margin-bottom: 35px;
+}
+.box > *{
+width: 100%;
 }
 
 nav.player > ul {
@@ -163,7 +167,7 @@ footer{
   flex-basis: 0;
 }
 
-.footer-box  h4, p{
+.footer-box  h4, span{
 font-size: 8px;
 }
 
@@ -214,7 +218,7 @@ nav.player-footer > ul > li{
   background-color: grey;
 }
 @media screen and (max-width: 768px){
-.box {
+.content-box {
   flex-basis: calc(100% / 3);
 }
 @media screen and (min-width: 768px)
