@@ -22,7 +22,7 @@ main > .navbar{
   flex-direction: column;
   justify-content: space-between;
   background-color: black;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -40,14 +40,19 @@ main > .main-page{
   width: 100%;
   text-align: left;
   padding:15px 30px 30px 30px;
+  color:
 }
 
 div.menù div{
-  padding: 10px;
+  padding: 12px;
+}
+div.menù div i{
+  padding-right:  20px;
 }
 
-#spotify-logo, .fa-spotify{
+.navbar #spotify-logo, .fa-spotify{
   font-size: 40px;
+  color: white;
 }
 
 .ascoltati-di-recente > div{
@@ -68,7 +73,9 @@ div.menù div{
   padding: 5px 0;
 }
 
-
+.installa .arrow i, .login .user-icon i{
+  padding-right: 20px;
+}
 
 .login, .installa{
   display: flex;
@@ -114,8 +121,8 @@ div.menù div{
 }
 
 .box{
- width: calc(100% /6);
- margin-bottom: 20px;
+flex-basis:   calc(100% /6);
+ margin-bottom: 35px;
 }
 
 nav.player > ul {
@@ -201,7 +208,8 @@ nav.player-footer > ul > li{
   background-color: grey;
 }
 @media screen and (max-width: 768px){
-  
+.box {
+  flex-basis: calc(100% / 3);
 }
 @media screen and (min-width: 768px)
 and (max-width: 992px){
