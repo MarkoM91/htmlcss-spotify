@@ -156,9 +156,15 @@ footer{
 .footer-left div {
   padding: 0 5px;
 }
+.footer-left > .footer-box{
+  flex-basis: calc(100% / 3);
+}
+.footer-box img{
+  flex-basis: 0;
+}
 
-.footer-text > *{
-  font-size: 12px;
+.footer-box  h4, p{
+font-size: 8px;
 }
 
 .footer-center{
