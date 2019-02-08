@@ -34,7 +34,7 @@ main > .main-page{
   align-items: center;
   justify-content: flex-start;
   background-color: rgb(28, 40, 60);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .navbar-top-content{
@@ -56,6 +56,9 @@ div.menù div i{
   color: white;
 }
 
+.ascoltati-di-recente {
+ margin: 20px;
+}
 .ascoltati-di-recente > div{
  padding: 10px;
 }
