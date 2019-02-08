@@ -134,11 +134,12 @@ display: none
 }
 
 .box{
-flex-basis:   calc(100% /6);
+flex-basis:   calc(100% / 7);
 margin-bottom: 20px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+margin-right: 15px;
 }
 .box-text{
   margin-top: 10px;
@@ -176,7 +177,7 @@ footer{
 }
 
 .footer-left div {
-  padding: 0 5px;
+  padding: 0 15px;
 }
 .footer-left > .footer-box{
   flex-basis: calc(100% / 3);
