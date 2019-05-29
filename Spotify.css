@@ -1,21 +1,25 @@
-*{
+* {
+
   box-sizing: border-box;
   margin: 0;
 }
 
-.landing{
+.landing {
+
   max-height: 100vh;
   max-width:100vw;
   border: 1px solid black;
 }
 
-main{
+main {
+
   height: 85vh;
   width: 100%;
   display: flex;
 }
 
-main > .navbar{
+main > .navbar {
+
   width: 20%;
   height: 100%;
   display: flex;
@@ -26,7 +30,8 @@ main > .navbar{
 }
 
 
-main > .main-page{
+main > .main-page {
+
   width: 80%;
   height: 100%;
   display: flex;
@@ -37,173 +42,218 @@ main > .main-page{
   overflow-y: auto;
 }
 
-.navbar-top-content{
+.navbar-top-content {
+
   width: 100%;
   text-align: left;
   padding:15px 30px 30px 30px;
   color:
 }
 
-div.menù div{
+div.menù div {
+
   padding: 12px;
 }
-div.menù div i{
+
+div.menù div i {
+
   padding-right:  20px;
 }
 
-.navbar #spotify-logo, .fa-spotify{
+.navbar #spotify-logo, .fa-spotify {
+
   font-size: 40px;
   color: white;
 }
 
 .ascoltati-di-recente {
+
  margin: 20px;
 }
-.ascoltati-di-recente > div{
+
+.ascoltati-di-recente > div {
+
  padding: 10px;
 }
 
-.playlist{
+.playlist {
+
   display: flex;
   justify-content: space-between;
 }
 
-.navbar-bottom-content{
+.navbar-bottom-content {
+
   width: 100%;
   text-align: left;
   padding: 30px;
 }
-.navbar-bottom-content div{
+
+.navbar-bottom-content div {
+
   padding: 5px 0;
 }
 
-.installa .arrow i, .login .user-icon i{
+.installa .arrow i, .login .user-icon i {
+
   padding-right: 20px;
 }
 
-.login, .installa{
+.login, .installa {
+
   display: flex;
 }
 
-.hamburger  div{
+.hamburger  div {
+
 width: 35px;
 height: 5px;
+
 background-color: white;
 margin: 6px 0;
+
 position: relative;
 top: 15px;
 left:  400%;
 display: none
 }
 
-.main-page-nav{
+.main-page-nav {
+
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   position: relative;
 }
 
-.main-page-nav, .content{
+.main-page-nav, .content {
+
   padding: 15px;
 }
 
-.main-page{
- display: flex;
- justify-content: center;
+.main-page {
+
+  display: flex;
+  justify-content: center;
  }
 
- .content{
+ .content {
+
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   max-width: 85%;
    flex-wrap: wrap;
+
+   max-width: 85%;
    color: white;
  }
- .content-box{
+
+ .content-box {
+
    display:flex;
    align-items: center;
    flex-wrap: wrap;
    flex-basis:auto;
  }
 
- .content-header{
+ .content-header {
+
    text-align: left;
    width: 100%;
    padding:30px 0;
  }
 
-.content-box >.box img{
+.content-box >.box img {
+
  width: 100%;
 }
 
-.box{
-flex-basis:   calc(100% / 7);
-margin-bottom: 20px;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-margin-right: 15px;
+.box {
 
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  flex-basis:   calc(100% / 7);
+
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
-.box-text{
+
+.box-text {
+
   margin-top: 10px;
 }
-.box > *{
+
+.box > * {
+
 width: 100%;
 }
 
 nav.player > ul {
+
   list-style: none;
-  display: flex;
   padding: 0 20px;
+
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 nav.player > ul > li{
+
     padding: 0 20px;
-  }
+}
 
+footer {
 
-footer{
   height: 15vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   background-color: rgb(40, 40, 40);
   color: #b3b3b3;
 }
 
 .footer-left  {
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer-left div {
+
   padding: 0 15px;
 }
-.footer-left > .footer-box{
+
+.footer-left > .footer-box {
+
   flex-basis: calc(100% / 3);
 }
-.footer-box img{
+
+.footer-box img {
+
   flex-basis: 0;
 }
 
-.footer-box  h4, span{
-font-size: 8px;
+.footer-box  h4, span {
+
+  font-size: 8px;
 }
 
-.footer-center{
+.footer-center {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
 nav.player-footer > ul {
+
   list-style: none;
   flex-wrap:nowrap ;
   display: flex;
@@ -211,33 +261,34 @@ nav.player-footer > ul {
   align-items: center;
 }
 
+nav.player-footer > ul > li {
 
-nav.player-footer > ul > li{
   padding: 0 8px;
 }
 
+.playback-bar {
 
-.playback-bar{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.bar {
 
-
-.bar{
   width: 400px;
   height: 5px;
   background-color: grey;
 }
 
-.footer-right{
+.footer-right {
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.now-playing{
+.now-playing {
+
   width: 100px;
   height: 5px;
   background-color: grey;
@@ -245,70 +296,88 @@ nav.player-footer > ul > li{
 
 @media screen and (max-width: 768px){
 
-.navbar  h4, p{
-  display: none;
-}
+ .navbar  h4, p {
 
-.navbar > *{
-  padding: 0;
-}
-
-.navbar #spotify-logo b{
-  display: none;
-}
-
-div.navbar-top-content{
-  padding: 15px;
-}
-
-div.menù div:not(#spotify-logo){
-  padding-left: 20px;
-}
-
-div.menù b{
-  display: none;
-}
-
-div.playlist {
-  display: flex;
-  padding: 0;
-}
-
-.artista-text p{
-  display: none;
-}
- .installa div b, .login div b{
    display: none;
  }
 
- .hamburger div{
- display: block;
+ .navbar > * {
 
+   padding: 0;
  }
 
- .box{
- flex-basis:   calc(100% /3);
-}
-div.content-box p{
-  font-size: 12px;
-}
-div.playlist-text{
-  position: relative;
-}
+ .navbar #spotify-logo b {
 
-#sound{
-  position: absolute;
-  left: 36px;
-  top: 230px;
+   display: none;
+ }
 
-}
+ div.navbar-top-content {
 
-nav.player > ul {
-  display: none;
-}
-.navbar{
-  overflow: hidden;
-}
+   padding: 15px;
+ }
+
+ div.menù div:not(#spotify-logo) {
+
+   padding-left: 20px;
+ }
+
+ div.menù b {
+
+   display: none;
+ }
+
+ div.playlist {
+
+   display: flex;
+   padding: 0;
+ }
+
+ .artista-text p {
+
+   display: none;
+ }
+
+  .installa div b, .login div b {
+
+    display: none;
+  }
+
+  .hamburger div {
+
+    display: block;
+  }
+
+  .box {
+
+    flex-basis:   calc(100% /3);
+ }
+
+ div.content-box p {
+
+   font-size: 12px;
+ }
+
+ div.playlist-text {
+
+   position: relative;
+ }
+
+ #sound {
+
+   position: absolute;
+   left: 36px;
+   top: 230px;
+ }
+
+ nav.player > ul {
+
+   display: none;
+ }
+
+ .navbar {
+
+   overflow: hidden;
+ }
 
 }
 
@@ -316,14 +385,17 @@ nav.player > ul {
 and (max-width: 992px){
 
   .box{
-  flex-basis:   calc(100% /4);
+
+    flex-basis: calc(100% /4);
   }
 
   div.content-box p{
+
     font-size: 12px;
     margin: 10px;
   }
 }
+
 @media screen and (min-width: 992px){
 
 }
