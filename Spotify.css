@@ -54,6 +54,11 @@ div.menù div {
 
   padding: 12px;
 }
+div.menù div:hover {
+
+  padding: 12px;
+  color: white;
+}
 
 div.menù div i {
 
@@ -76,6 +81,12 @@ div.menù div i {
  padding: 10px;
 }
 
+.ascoltati-di-recente > div:hover {
+
+ padding: 10px;
+ color: white;
+}
+
 .playlist {
 
   display: flex;
@@ -92,6 +103,11 @@ div.menù div i {
 .navbar-bottom-content div {
 
   padding: 5px 0;
+}
+.navbar-bottom-content div:hover {
+
+  padding: 5px 0;
+  color: white;
 }
 
 .installa .arrow i, .login .user-icon i {
@@ -206,6 +222,12 @@ nav.player > ul > li{
     padding: 0 20px;
 }
 
+nav.player > ul > li:hover {
+
+    padding: 0 20px;
+    color: white;
+}
+
 footer {
 
   height: 15vh;
@@ -227,6 +249,12 @@ footer {
 .footer-left div {
 
   padding: 0 15px;
+}
+
+.footer-left div:hover {
+
+  padding: 0 15px;
+  color: white;
 }
 
 .footer-left > .footer-box {
@@ -264,6 +292,12 @@ nav.player-footer > ul {
 nav.player-footer > ul > li {
 
   padding: 0 8px;
+}
+
+nav.player-footer > ul > li:hover {
+
+  padding: 0 8px;
+  color: white;
 }
 
 .playback-bar {
@@ -379,6 +413,32 @@ nav.player-footer > ul > li {
    overflow: hidden;
  }
 
+ footer {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ .footer-box h4, .footer-box span {
+   display: none;
+ }
+
+ .footer-box img {
+   width: 40px;
+   height: 40px;
+ }
+
+ div.bar {
+
+   width: 400px;
+ }
+
+footer .footer-right {
+
+   display: none;
+ }
 }
 
 @media screen and (min-width: 768px)
@@ -393,6 +453,15 @@ and (max-width: 992px){
 
     font-size: 12px;
     margin: 10px;
+  }
+
+  div.footer {
+    display: none;
+    flex-direction: column;
+  }
+
+  .footer-right {
+      display: none;
   }
 }
 
