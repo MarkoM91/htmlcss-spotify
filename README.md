@@ -1,6 +1,6 @@
 # htmlcss-spotify
 
- htmlcss-spotify is a responsive copy of Spotify Front-End Interface.
+ htmlcss-spotify is a Web Front-end Clone.
  
  ## Technologies Used:
  
