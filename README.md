@@ -1,6 +1,6 @@
 # htmlcss-spotify
 
- htmlcss-spotify is a Web Front-end Clone.
+ htmlcss-spotify is a Spotify Web Front-end Clone.
  
  ## Technologies Used:
  
