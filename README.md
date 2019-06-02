@@ -9,5 +9,8 @@
  ## Project's Screenshots
  
  ![](spotify.png)
+ 
+ ![](spotify2.png)
+
 
  
