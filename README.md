@@ -7,3 +7,7 @@
  HTML/CSS/FLEX
  
  ## Project's Screenshots
+ 
+ ![](spotify.png)
+
+ 
